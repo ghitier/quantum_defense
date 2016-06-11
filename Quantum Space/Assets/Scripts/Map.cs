@@ -5,6 +5,8 @@ public class Map : MonoBehaviour {
 	public const int ASTEROID_ID = -1;
 	public const int NO_ID = -2;
 	public const int EMPTY_ID = 0; 
+	public int tile_size_x;
+	public int tile_size_y;
 	public int width;
 	public int height;
 	public Vec2i begin;
@@ -12,7 +14,7 @@ public class Map : MonoBehaviour {
     public new string name;
 	public Vec2i[] asteroids;
 	private int[][] grid;
-	
+
 	public bool IsAsteroid(int x, int y) {
 		if (asteroids != null) {
 			foreach (Vec2i tmp in asteroids) {
