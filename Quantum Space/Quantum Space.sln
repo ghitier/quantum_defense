@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7D6E3354-4E6B-4FD5-5BDB-963896870271}") = "Quantum Space", "Assembly-CSharp.csproj", "{55DC8712-D6D5-4532-2C97-F22AD5B32A17}"
+EndProject
+Project("{7D6E3354-4E6B-4FD5-5BDB-963896870271}") = "Quantum Space", "Assembly-CSharp-Editor.csproj", "{87654096-2C1E-2E9E-038B-1F305B276982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55DC8712-D6D5-4532-2C97-F22AD5B32A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DC8712-D6D5-4532-2C97-F22AD5B32A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DC8712-D6D5-4532-2C97-F22AD5B32A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DC8712-D6D5-4532-2C97-F22AD5B32A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87654096-2C1E-2E9E-038B-1F305B276982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87654096-2C1E-2E9E-038B-1F305B276982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87654096-2C1E-2E9E-038B-1F305B276982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87654096-2C1E-2E9E-038B-1F305B276982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
