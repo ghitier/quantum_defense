@@ -49,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CamSetting.cs" />
+     <Compile Include="Assets\Scripts\Map.cs" />
+     <Compile Include="Assets\Scripts\ScaleBackground.cs" />
+     <Compile Include="Assets\Scripts\Vec2i.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
